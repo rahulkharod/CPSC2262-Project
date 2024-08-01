@@ -1,0 +1,57 @@
+.favorite-cities {
+    padding: 20px;
+    color: #333;
+    width:50%;
+    text-align: center;
+}
+  
+.favorite-cities h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+  
+.favorite-cities ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.favorite-city {
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+  
+.favorite-city h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+  
+.favorite-city p {
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+  
+.favorite-city button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #d5051a;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+.favorite-city button:hover {
+    background-color: #da6b76;
+}
+  
